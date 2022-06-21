@@ -10,7 +10,11 @@
 }
 
 .planet-img {
-  width: 80%;
+  width: 95%;
+}
+
+.planet-img:hover {
+  transform: scale(1.15);
 }
 
 /* .planet-img:nth-of-type( 1 ) {

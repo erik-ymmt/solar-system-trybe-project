@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Mission from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 import './App.css';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
         <Header />
         <SolarSystem />
         <Mission />
+        <Footer />
       </>
     );
   }

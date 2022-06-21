@@ -11,3 +11,7 @@
   margin: 5px 0;
   padding: 20px;
 }
+
+.mission-card:hover {
+  background: rgba(52, 55, 67, 0.8);
+}

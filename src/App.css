@@ -8,5 +8,14 @@
 }
 
 body {
-  background-image: url(./images/background.png);
+  background-image: url('./images/background.png');
+}
+
+footer {
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 20px;
+  text-align: center;
 }
