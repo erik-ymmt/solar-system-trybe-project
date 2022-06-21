@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Mission from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 
 class App extends React.Component {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <>
         <Header />
         <SolarSystem />
+        <Mission />
       </>
     );
   }
