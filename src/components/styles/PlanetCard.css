@@ -3,20 +3,17 @@
   display: flex;
   flex-flow: column wrap;
   font-family: Epilogue , sans-serif;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 20px;
   font-weight: 400;
+  justify-content: end;
   line-height: 150%;
 }
 
 .planet-img {
+  margin: auto;
   width: 95%;
 }
 
 .planet-img:hover {
   transform: scale(1.15);
 }
-
-/* .planet-img:nth-of-type( 1 ) {
-  width: 10em;
-} */

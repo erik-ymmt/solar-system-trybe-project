@@ -10,6 +10,7 @@ class MissionCard extends React.Component {
         <h3 data-testid="mission-name">
           {name}
         </h3>
+        <hr />
         <p data-testid="mission-year">
           {year}
         </p>
