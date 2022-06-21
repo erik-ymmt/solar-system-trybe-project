@@ -2,6 +2,7 @@ import React from 'react';
 import Missions from '../data/missions';
 import MissionCard from './MissionCard';
 import Title from './Title';
+import './styles/Missions.css';
 
 function renderMissions() {
   return Missions.map((mission) => (
@@ -18,9 +19,11 @@ function renderMissions() {
 class Mission extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="missions-container" data-testid="missions">
         <Title headline="Missões" />
-        { renderMissions() }
+        <div className="missions-info-container">
+          { renderMissions() }
+        </div>
       </div>
     );
   }

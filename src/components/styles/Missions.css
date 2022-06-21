@@ -1,0 +1,15 @@
+.missions-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.missions-info-container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  width: 85%;
+}
