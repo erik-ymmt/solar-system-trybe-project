@@ -1,0 +1,11 @@
+.solar-system-container {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.planets-container {
+  display: flex;
+  justify-content: space-evenly;
+}

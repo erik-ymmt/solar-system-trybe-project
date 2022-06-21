@@ -2,6 +2,7 @@ import React from 'react';
 import Planets from '../data/planets';
 import PlanetCard from './PlanetCard';
 import Title from './Title';
+import './styles/SolarSystem.css';
 
 function renderPlanets() {
   return Planets.map((planet) => (
@@ -16,9 +17,11 @@ function renderPlanets() {
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div data-testid="solar-system">
+      <div className="solar-system-container" data-testid="solar-system">
         <Title headline="Planetas" />
-        {renderPlanets()}
+        <div className="planets-container">
+          {renderPlanets()}
+        </div>
       </div>
     );
   }

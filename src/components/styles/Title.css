@@ -1,0 +1,13 @@
+h2 {
+  background-color: #181a2580;
+  border: solid white 1px;
+  border-radius: 17px;
+  font-family: Epilogue , sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 50px 0;
+  text-align: center;
+  width: 85%;
+  color: white;
+}

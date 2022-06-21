@@ -1,0 +1,14 @@
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: Epilogue , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.planet-img {
+  width: 80%;
+}
