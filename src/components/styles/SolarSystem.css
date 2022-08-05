@@ -6,6 +6,13 @@
   justify-content: center;
 }
 
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Epilogue , sans-serif;
+  margin-top: 30px;
+}
+
 .planets-container {
   display: flex;
   justify-content: space-evenly;

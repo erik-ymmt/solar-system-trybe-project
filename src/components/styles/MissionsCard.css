@@ -19,3 +19,8 @@ hr {
 .mission-card:hover {
   background: rgba(52, 55, 67, 0.8);
 }
+
+.selected {
+  background: rgba(52, 55, 67, 0.8);
+  box-shadow: 0 0 15px white;
+}

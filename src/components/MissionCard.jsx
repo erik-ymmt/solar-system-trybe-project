@@ -4,9 +4,9 @@ import './styles/MissionsCard.css';
 
 class MissionCard extends React.Component {
   render() {
-    const { name, year, country, destination } = this.props;
+    const { name, year, country, destination, selected } = this.props;
     return (
-      <div className="mission-card" data-testid="mission-card">
+      <div className={`mission-card ${selected}`} data-testid="mission-card">
         <h3 data-testid="mission-name">
           {name}
         </h3>
