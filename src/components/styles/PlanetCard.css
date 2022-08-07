@@ -12,9 +12,10 @@
 .planet-img {
   margin: auto;
   width: 95%;
+  cursor: url('./cursor.png'), auto;
 }
 
 .planet-img:hover {
   transform: scale(1.15);
-  cursor: pointer;
+  cursor: url('./cursor.png'), auto;
 }
