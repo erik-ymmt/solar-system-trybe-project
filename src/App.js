@@ -32,7 +32,7 @@ class App extends React.Component {
   render() {
     const { selectedPlanet } = this.state;
     return (
-      <>
+      <main>
         <Header />
         <SolarSystem
           selectPlanet = { (planet) => this.selectPlanet(planet) }
@@ -41,7 +41,7 @@ class App extends React.Component {
           selectPlanet = { selectedPlanet }
         />
         <Footer />
-      </>
+      </main>
     );
   }
 }

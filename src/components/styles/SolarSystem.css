@@ -4,13 +4,16 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  width: 100%;
 }
 
 h5 {
   font-size: 1rem;
   font-weight: 400;
-  font-family: Epilogue , sans-serif;
+  font-family: Epilogue, sans-serif;
   margin-top: 30px;
+  text-align: center;
+  font-style: italic;
 }
 
 .planets-container {
@@ -19,40 +22,39 @@ h5 {
   margin: 0 100px;
 }
 
-.planet-card:nth-of-type( 1 ) .planet-img {
+.planet-card:nth-of-type(1) .planet-img {
   width: 4em;
 }
 
-.planet-card:nth-of-type( 2 ) .planet-img {
+.planet-card:nth-of-type(2) .planet-img {
   width: 8em;
 }
 
-.planet-card:nth-of-type( 3 ) .planet-img {
+.planet-card:nth-of-type(3) .planet-img {
   width: 8em;
 }
 
-.planet-card:nth-of-type( 4 ) .planet-img {
+.planet-card:nth-of-type(4) .planet-img {
   width: 7em;
 }
 
-.planet-card:nth-of-type( 5 ) .planet-img {
+.planet-card:nth-of-type(5) .planet-img {
   width: 14em;
 }
 
-.planet-card:nth-of-type( 6 ) .planet-img {
+.planet-card:nth-of-type(6) .planet-img {
   width: 14em;
 }
 
-.planet-card:nth-of-type( 7 ) .planet-img {
+.planet-card:nth-of-type(7) .planet-img {
   width: 10em;
 }
 
-.planet-card:nth-of-type( 8 ) .planet-img {
+.planet-card:nth-of-type(8) .planet-img {
   width: 10em;
 }
 
-@media screen and ( max-width : 1570px ) {
-
+@media screen and (max-width: 1570px) {
   .planets-container {
     flex-wrap: wrap;
   }
@@ -60,13 +62,20 @@ h5 {
   .planet-card {
     margin: 25px;
   }
-
 }
 
-@media screen and ( max-width : 1300px ) {
-
+@media screen and (max-width: 1300px) {
   .planet-card {
     margin: 25px 0;
   }
+}
 
+@media screen and (max-width: 750px) {
+  .planets-container {
+    flex-direction: column;
+  }
+  .planet-card {
+    transform: scale(1);
+    margin: 1rem;
+  }
 }

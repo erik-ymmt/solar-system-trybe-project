@@ -24,3 +24,11 @@ hr {
   background: rgba(52, 55, 67, 0.8);
   box-shadow: 0 0 15px white;
 }
+
+@media screen and (max-width: 750px) {
+  .mission-card {
+    flex-basis: 90%;
+    flex-grow: 1;
+    margin: 0;
+  }
+}
